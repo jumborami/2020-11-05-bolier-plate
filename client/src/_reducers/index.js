@@ -13,7 +13,7 @@
 
 import {combineReducers} from 'redux'; //combineReducers => 여러 개의 reducers들을 하나로 합쳐준다
 //import user from './user_reducer';
-import comment from './comment_reducer';
+//import comment from './comment_reducer';
 
 const rootReducer = combineReducers({ //rootReducer에서 combineReducer를 이용해 여러 reducer들을 하나로 합친다.
 	//user,
